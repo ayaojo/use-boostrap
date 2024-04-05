@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Montserrat:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.body-container{
+    max-width: 1000px;
+    margin: 100px auto;
+    padding: 25px;
+    border: 1px solid rgb(119, 119, 119);
+    border-radius: 15px;
+}
+
+.animate__animated{
+    text-align: center;
+    color: rgb(75, 75, 75);
+    font-weight: 700;
+}
+
+.to-do-form{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin: 15px 0;
+}
+
+.to-do-form .input-to-do{
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.to-do-form .input-to-do::placeholder{
+    font-weight: 700;
+}
+
+.btn{
+    text-transform: uppercase;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.table .table-header th{
+    color: rgb(75, 75, 75);
+}
